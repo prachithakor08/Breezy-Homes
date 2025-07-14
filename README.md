@@ -35,3 +35,4 @@ The project adheres to the MVC architecture:
 **Controllers:** Business logic and routing handlers
 
 **Routes:** Modular route files for clean navigation and management
+
