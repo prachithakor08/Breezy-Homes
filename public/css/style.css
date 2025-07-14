@@ -22,31 +22,45 @@ body{
     color: #222222 !important;
 }
 /* Footer */
-.f-info-links a{
-    text-decoration: none;
-    color: #000000;
+.footer {
+    background-color: #e9d3d3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer .f-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    margin-right: 4px;
 }
 
-.f-info-links a,li:hover{
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #007bff;
+}
+
+.footer i {
+    color: #151314;
+}
+
+.footer a {
+    color: #5e5f60;
+    text-decoration: none;
+}
+
+.footer a:hover {
     text-decoration: underline;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    line-height: 2.4rem;
-}
-
-.f-title{
-    font-size: 1.2rem;
-    color: #911b22;
-
-}
-.f-info{
-    /* text-align: center; */
-    height: 20rem;
-    background-color: #e9d3d3;
-}
 
 /* Cards */
 .listing-card{
